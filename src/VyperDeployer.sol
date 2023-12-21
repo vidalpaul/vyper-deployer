@@ -46,7 +46,7 @@ contract VyperDeployer {
         return cheatCodes.ffi(cmds);
     }
 
-    ///@notice Compiles a Vyper contract and returns the address that the contract was deployeod to
+    ///@notice Compiles a Vyper contract and returns the address that the contract was deployed to
     ///@notice If deployment fails, an error will be thrown
     ///@param fileName - The file name of the Vyper contract. For example, the file name for "SimpleStore.vy" is "SimpleStore"
     ///@return deployedAddress - The address that the contract was deployed to
